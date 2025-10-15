@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(200, 65, 137);
+}
+
+.arrow1{
+    animation: blink 0.7s infinite;
+    justify-self: end;
+    padding-top: 225px;
+}
+
+.arrow2{
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    75%{
+        opacity: 1;
+    }
+
+    76%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
