@@ -3,14 +3,15 @@ body{
     background-color: aquamarine;
 }
 
-.arrow{
+
+.arrow1{
     animation: blink 0.7s infinite;
-    padding-left: 1125px;
+    justify-self: end;
     padding-top: 225px;
     
 }
 
-.arrow1{
+.arrow2{
     animation: blink 0.7s infinite;
     
 }
