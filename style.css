@@ -1,0 +1,15 @@
+
+.arrow{
+    animation: blink 2s infinite;
+    padding-top: 520px;
+    padding-left: 1100px;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+}
