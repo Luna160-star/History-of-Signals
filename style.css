@@ -1,8 +1,11 @@
-
+body{
+    overflow: hidden;
+}
 .arrow{
-    animation: blink 2s infinite;
-    padding-top: 520px;
-    padding-left: 1100px;
+    animation: blink 0.7s infinite;
+    padding-left: 775px;
+    padding-top: 650px;
+    
 }
 
 @keyframes blink{
@@ -11,5 +14,11 @@
     }
     75%{
         opacity: 1;
+    }
+    76%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
     }
 }
