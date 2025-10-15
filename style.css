@@ -1,10 +1,17 @@
 body{
     overflow: hidden;
+    background-color: aquamarine;
 }
+
 .arrow{
     animation: blink 0.7s infinite;
-    padding-left: 775px;
-    padding-top: 650px;
+    padding-left: 1125px;
+    padding-top: 225px;
+    
+}
+
+.arrow1{
+    animation: blink 0.7s infinite;
     
 }
 
