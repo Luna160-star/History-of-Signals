@@ -6,14 +6,12 @@ body{
 
 .arrow1{
     animation: blink 0.7s infinite;
-    justify-self: end;
-    padding-top: 225px;
     
 }
 
 .arrow2{
     animation: blink 0.7s infinite;
-    
+       
 }
 
 @keyframes blink{
@@ -27,6 +25,15 @@ body{
         opacity: 0;
     }
     100%{
+    
         opacity: 0;
     }
+
+
+}
+.arrowbody{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 910px;
+    padding-top: 250px;
 }

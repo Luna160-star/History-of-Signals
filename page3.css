@@ -1,3 +1,39 @@
-body{
-    background-color: blueviolet;
+ody{
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+
+.arrow1{
+    animation: blink 0.7s infinite;
+    
+}
+
+.arrow2{
+    animation: blink 0.7s infinite;
+       
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    76%{
+        opacity: 0;
+    }
+    100%{
+    
+        opacity: 0;
+    }
+
+
+}
+.arrowbody{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 910px;
+    padding-top: 250px;
 }
