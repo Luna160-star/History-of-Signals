@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-image: url("backgroundop4.png");
+    /*maybe change the background later if i find any good replacement*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.arrow1{
+    animation: blink 0.7s infinite;
+}
+
+.arrow2{
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    76%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.arrowbody{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 250px;
+}
