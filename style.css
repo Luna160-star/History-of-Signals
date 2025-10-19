@@ -45,7 +45,6 @@ body {
 .arrowbody{
     display: grid;
     grid-auto-flow: column;
-    gap: 910px;
     padding-top: 250px;
 }
 
