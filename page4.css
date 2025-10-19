@@ -40,6 +40,11 @@ body{
 .arrowbody{
     display: grid;
     grid-auto-flow: column;
-    gap: 910px;
     padding-top: 250px;
+}
+
+.ch3{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(148, 15, 100);
 }

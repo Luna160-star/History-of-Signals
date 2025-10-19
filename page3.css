@@ -44,6 +44,14 @@ body {
 .arrowbody{
     display: grid;
     grid-auto-flow: column;
-    gap: 910px;
+    gap: 110px;
     padding-top: 250px;
+}
+
+.ch2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(109, 36, 169);
+    padding-bottom: 100px;
+
 }
