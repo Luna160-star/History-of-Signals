@@ -38,10 +38,10 @@ body{
 .envelopethree{
     height: 200px;
     width: 300px;
-    background-color: azure;
+    background-color: rgb(83, 12, 43);
     position: relative;
     display: flex;
-    z-index:0;
+    z-index: 0;
     justify-content: center;
 }
 
@@ -142,8 +142,8 @@ body{
  /*finally env 3*/
 
  .envelopethree:hover .cover.one{
-    transform: rotateX('90deg');
-    transition-delay: 0.25;
+    transform: rotateX(90deg);
+    transition-delay: 0.25s;
  }
 
  .envelopethree:hover .cover.two{
