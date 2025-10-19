@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 70px;
 }
 
 .envelopeone{
@@ -33,6 +33,16 @@ body{
     z-index: 0;
     justify-content: center;
 
+}
+
+.envelopethree{
+    height: 200px;
+    width: 300px;
+    background-color: azure;
+    position: relative;
+    display: flex;
+    z-index:0;
+    justify-content: center;
 }
 
 .letter{
@@ -111,6 +121,7 @@ body{
     transform: translateY(-50px);
     transition-delay: 0.5s;
 }
+
  /*for envelope 2*/
 
  .envelopetwo:hover .cover.one{
@@ -124,6 +135,23 @@ body{
  }
 
  .envelopetwo:hover .letter{
+    transform: translateY(-50px);
+    transition-delay: 0.5s;
+ }
+
+ /*finally env 3*/
+
+ .envelopethree:hover .cover.one{
+    transform: rotateX('90deg');
+    transition-delay: 0.25;
+ }
+
+ .envelopethree:hover .cover.two{
+    transform: rotateX(180deg);
+    transition-delay: 0.25s;
+ }
+
+ .envelopethree:hover .letter{
     transform: translateY(-50px);
     transition-delay: 0.5s;
  }
