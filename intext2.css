@@ -38,7 +38,8 @@ body{
 }
 
 .arrowbody{
+    margin-top: 0;
+    padding: 10px;
     display: grid;
-    grid-auto-flow: column;
-    padding-top: 250px;
+    flex-direction: column;
 }
