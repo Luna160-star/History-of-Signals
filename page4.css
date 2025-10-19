@@ -37,12 +37,6 @@ body{
     }
 }
 
-.arrowbody{
-    display: grid;
-    grid-auto-flow: column;
-    padding-top: 250px;
-}
-
 .ch3{
     text-align: center;
     font-size: 50px;
