@@ -20,3 +20,31 @@ body{
     grid-auto-flow: column;
 }
 
+.arrow1{
+    animation: blink 0.7s infinite;
+}
+
+.arrow2{
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    76%{
+        opacity: 0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+.arrowbody{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 250px;
+}
