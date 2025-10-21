@@ -40,5 +40,19 @@ body{
 .arrowbody{
     display: grid;
     grid-auto-flow: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
+
+#top{
     padding-top: 250px;
+    margin: 0;
+    
+}
+
+p{
+    font-size: 25px;
+    padding-top: 20px;
 }
